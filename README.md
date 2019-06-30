@@ -6,3 +6,4 @@ saykindenis microservices repository
 Образ загружен в docker hub
 Образ запущен в локальном docker
 При убийстве pid1 образ заверщает работу
+  
