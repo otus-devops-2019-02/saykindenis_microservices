@@ -1,5 +1,10 @@
 # saykindenis_microservices
 saykindenis microservices repository
+HW Docker-4
+docker-compose изменен под кейс с множеством сетей, добавлены алиасы для корректной работы comment с DB
+Создан .env-файл для параметризации переменных
+Имя проекта можно задавать через project_name: name
+
 HW Docker-3 
 
 Приложение разбито на несколько компонентов
