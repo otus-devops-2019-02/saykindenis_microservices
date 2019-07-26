@@ -1,6 +1,0 @@
-REPOSITORY               TAG                 IMAGE ID            CREATED             SIZE
-saykin/ubuntu-tmp-file   latest              21f6f82b1b7f        53 seconds ago      119MB
-ubuntu                   16.04               13c9f1285025        3 days ago          119MB
-hello-world              latest              fce289e99eb9        5 months ago        1.84kB
-
-Образ - неизменяемый шаблон, используемый при запуске контейнера. В выводе мы видим определение ресурсов у контейнера, у образа этого нет.

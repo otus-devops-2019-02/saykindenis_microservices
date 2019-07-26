@@ -1,5 +1,12 @@
 # saykindenis_microservices
 saykindenis microservices repository
+HW monitoring-1
+Установлен prometheus, ознакомился с базовым функционалом/
+Настроен мониторинг микросервисов.
+Настроен сбор метрик с помощью экспортера.
+https://hub.docker.com/u/saykind - ссылка на докер хаб с моими образами
+
+
 HW Docker-4
 docker-compose изменен под кейс с множеством сетей, добавлены алиасы для корректной работы comment с DB
 Создан .env-файл для параметризации переменных
