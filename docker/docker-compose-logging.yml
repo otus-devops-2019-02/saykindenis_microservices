@@ -2,8 +2,6 @@ version: '3.3'
 services:
   zipkin:
     image: openzipkin/zipkin
-    environment:
-      - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
     ports:
       - "9411:9411"
     networks:
