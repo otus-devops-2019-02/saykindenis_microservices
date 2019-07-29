@@ -45,7 +45,7 @@ Docker is up and running!
 To see how to connect your Docker Client to the Docker Engine running on this virtual machine,
 run: docker-machine env logging
 $ eval $(docker-machine env logging)
-# узнаем IP адрес
+# узнаем IPадрес
 $ docker-machine ip logging
 
 gcloud compute firewall-rules create kibana --allow tcp:5601
