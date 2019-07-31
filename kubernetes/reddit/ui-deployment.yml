@@ -15,5 +15,5 @@ spec:
         app: ui
     spec:
       containers:
-      - image: mad72/ui:latest
+      - image: saykind/ui:latest
         name: ui
