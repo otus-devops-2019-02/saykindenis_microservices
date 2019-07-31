@@ -31,3 +31,21 @@ HW Docker-2
 Образ загружен в docker hub
 Образ запущен в локальном docker
 При убийстве pid1 образ завершает работу
+
+$ export GOOGLE_PROJECT=_ваш-проект_
+$ docker-machine create --driver google \
+    --google-machine-image https://www.googleapis.com/compute/v1/projects/ubuntu-os-
+cloud/global/images/family/ubuntu-1604-lts \
+    --google-machine-type n1-standard-1 \
+    --google-open-port 5601/tcp \
+    --google-open-port 9292/tcp \
+    --google-open-port 9411/tcp \
+logging ...
+Docker is up and running!
+To see how to connect your Docker Client to the Docker Engine running on this virtual machine,
+run: docker-machine env logging
+$ eval $(docker-machine env logging)
+# узнаем IPадрес
+$ docker-machine ip logging
+
+gcloud compute firewall-rules create kibana --allow tcp:5601
