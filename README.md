@@ -1,5 +1,14 @@
 # saykindenis_microservices
 saykindenis microservices repository
+HW Kubernetes-2
+
+
+
+HW Kubernetes-1
+
+Пройдена лаба kubernetes the hard way. В процессе установлены kubectl, cfssl и cfssljson, созданы сети и правила файрволла, баллансировщик нагрущки в GCP.
+Созданы манифесты для деплоя приложений и БД, проверена их запуск и работа в кластере.
+
 HW monitoring-2
 Настроен мониторинг контейнеров
 Собираются и визуализируются метрики приложения и бизнес-метрики
