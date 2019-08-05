@@ -12,3 +12,4 @@ vault.key
 *.pyc
 .molecule .cache .pytest_cache
 .env
+Gitlab_ci

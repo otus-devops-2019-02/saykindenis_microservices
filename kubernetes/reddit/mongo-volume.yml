@@ -5,7 +5,7 @@ metadata:
   name: reddit-mongo-disk
 spec:
   capacity:
-    storage: 25Gi
+    storage: 100Gi
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
